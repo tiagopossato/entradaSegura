@@ -14,9 +14,8 @@
  */
 int main(int argc, char** argv) {
 
-    int entrada;
-    entrada = leInt("Digite um numero: ");
-    printf("Voce digitou: %d", entrada);
+     printf("Voce digitou: %u\n", leUInt("Digite um numero sem sinal: "));
+     printf("Voce digitou: %d\n", leInt("Digite um numero: "));
     return (EXIT_SUCCESS);
 }
 
