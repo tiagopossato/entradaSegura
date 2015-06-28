@@ -24,7 +24,12 @@ Copyright (c) <2015> <Tiago Possato>
 #include <stdlib.h>
 #include <string.h>
 
-int leInt(char *msg) {
+/**
+ * Le um número inteiro do teclado.
+ * @param msg Mensagem para ser exbida ao usuário
+ * @return Um número inteiro
+ */
+extern int leInt(char *msg) {
     char tmp[15];
     int k = 0;
 entrada:
@@ -47,10 +52,16 @@ entrada:
     return atoi(tmp);
 }
 
-unsigned int leUInt() {
+/**
+ * Le um número interio sem sinal do teclado
+ * @param msg Mensagem para ser exbida ao usuário
+ * @return Um número inteiro sem sinal
+ */
+extern unsigned int leUInt(char *msg) {
     char tmp[15];
     int k;
 entrada:
+    printf("%s", msg);
     scanf(" %s", tmp);
 
     for (k = 0; k < strlen(tmp); k++) {

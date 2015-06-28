@@ -15,9 +15,7 @@
 int main(int argc, char** argv) {
 
     int entrada;
-
     entrada = leInt("Digite um numero: ");
-
     printf("Voce digitou: %d", entrada);
     return (EXIT_SUCCESS);
 }
