@@ -25,8 +25,8 @@ Copyright (c) <2015> <Tiago Possato>
 #include <string.h>
 
 /**
- * Le um número inteiro do teclado.
- * @param msg Mensagem para ser exbida ao usuário
+ * Lê um número inteiro do teclado.
+ * @param msg Mensagem para ser exibida ao usuário
  * @return Um número inteiro
  */
 extern int leInt(char *msg) {
@@ -53,8 +53,8 @@ entrada:
 }
 
 /**
- * Le um número interio sem sinal do teclado
- * @param msg Mensagem para ser exbida ao usuário
+ * Lê um número inteiro sem sinal do teclado
+ * @param msg Mensagem para ser exibida ao usuário
  * @return Um número inteiro sem sinal
  */
 extern unsigned int leUInt(char *msg) {

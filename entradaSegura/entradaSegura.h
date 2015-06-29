@@ -20,8 +20,8 @@ Copyright (c) <2015> <Tiago Possato>
  THE SOFTWARE.
  */
 
-#ifndef MYIO_H
-#define	MYIO_H
+#ifndef ENTRADASEGURA_H
+#define	ENTRADASEGURA_H
 
 #ifdef	__cplusplus
 extern "C" {
@@ -35,5 +35,5 @@ extern unsigned int leUint(char *msg);
 }
 #endif
 
-#endif	/* MYIO_H */
+#endif	/* ENTRADASEGURA_H */
 
