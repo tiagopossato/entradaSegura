@@ -28,7 +28,7 @@ extern "C" {
 #endif
     
     extern int leInt(char *msg);
-    extern unsigned int leUint(char *msg);
+    extern unsigned int leUInt(char *msg);
 
 #ifdef	__cplusplus
 }
