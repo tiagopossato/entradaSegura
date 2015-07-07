@@ -27,9 +27,8 @@ Copyright (c) <2015> <Tiago Possato>
 extern "C" {
 #endif
     
-extern int leInt(char *msg);
-extern unsigned int leUint(char *msg);
-
+    extern int leInt(char *msg);
+    extern unsigned int leUint(char *msg);
 
 #ifdef	__cplusplus
 }
